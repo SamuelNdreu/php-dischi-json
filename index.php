@@ -29,6 +29,16 @@
                         <p class="fw-bold m-2"> {{disco.year}} </p>
                 </div>
             </div>
+
+            <div class="wrapper" :class="this.indiceDisplay == 0 ? 'd-none' : ''">
+                <div class="bottone text-white fw-bold fs-1 text-center" @click="closeInfo()">
+                    x
+                </div>
+                <img class="p-5" :src=dischiList[this.clickIndex].poster :alt=dischiList[this.clickIndex].title>
+                <p class="text-white fw-bold m-2"> {{dischiList[this.clickIndex].title}} </p>
+                <p class="text-white m-2"> {{dischiList[this.clickIndex].author}} </p>
+                <p class="text-white fw-bold m-2"> {{dischiList[this.clickIndex].year}} </p>
+
         </main>
 
 
