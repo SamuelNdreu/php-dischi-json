@@ -14,6 +14,8 @@ main{
     cursor: pointer;
 }
 
+
+
 .wrapper{
     background-color: rgba(17, 32, 49, 0.95);
     height: 94.5vh;
@@ -43,3 +45,10 @@ main{
     top: 5.5vh;
     right: 50px;
 }
+
+.img{
+   width: 40px;
+   height: 40px; ;
+   margin-top: 4px;
+}
+

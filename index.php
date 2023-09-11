@@ -14,7 +14,7 @@
             <div class="container h-100">
                 <div class="row h-100">
                     <div class="col-12 h-100 d-flex align-item-center">
-                        <img class="h-50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" alt="">
+                        <img class="h-70 img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/800px-Spotify_logo_without_text.svg.png" alt="">
                     </div>
                 </div>
             </div>
